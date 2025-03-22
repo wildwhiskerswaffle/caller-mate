@@ -6,7 +6,7 @@ const config: CapacitorConfig = {
   appName: 'caller-mate',
   webDir: 'dist',
   server: {
-    url: 'https://ebf89f64-a021-48ed-9ec5-17f0d2d6acc7.lovableproject.com?forceHideBadge=true',
+    url: 'https://ebf89f64-a021-48ed-9ec5-17f0d2d6acc7.lovableproject.com/?forceHideBadge=true',
     cleartext: true
   },
   plugins: {

@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Search from "./pages/Search";
 import CallDetails from "./pages/CallDetails";
 import Settings from "./pages/Settings";
+import Block from "./pages/Block";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,8 +24,7 @@ const App = () => (
           <Route path="/search" element={<Search />} />
           <Route path="/call/:id" element={<CallDetails />} />
           <Route path="/settings" element={<Settings />} />
-          {/* Block page will be implemented in a future update */}
-          <Route path="/block" element={<Settings />} />
+          <Route path="/block" element={<Block />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
